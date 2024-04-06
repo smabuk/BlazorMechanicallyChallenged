@@ -1,0 +1,14 @@
+div {
+	&::before {
+		content: "";
+		background-image: url('logo.png');
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-size: 90dvmin;
+		height: 90dvmin;
+		width: 90dvmin;
+		z-index: -100;
+		position: absolute;
+		opacity: 0.15;
+	}
+}
